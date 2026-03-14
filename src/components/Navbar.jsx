@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/logoM1.jpeg";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   // Define our gold theme color
@@ -7,20 +8,21 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark border-bottom py-2 shadow-sm" 
-           style={{ backgroundColor: "#000000", borderColor: "#333" }}>
+      <nav
+        className="navbar navbar-expand-lg navbar-dark border-bottom py-2 shadow-sm"
+        style={{ backgroundColor: "#000000", borderColor: "#333" }}
+      >
         <div className="container">
-          
           {/* 1. Logo on the Left */}
           <a className="navbar-brand d-flex align-items-center" href="/">
             <img
               src={Logo}
               alt="Majestic Logo"
               style={{
-                height: "45px", 
+                height: "45px",
                 width: "auto",
                 objectFit: "contain",
-                filter: "brightness(1.1)" // Slightly pops the logo details
+                filter: "brightness(1.1)", // Slightly pops the logo details
               }}
             />
           </a>
@@ -38,24 +40,47 @@ export default function Navbar() {
 
           {/* 2. Links in the Center & Button on the Right */}
           <div className="collapse navbar-collapse" id="navbarNav">
-            
             {/* Links centered using mx-auto */}
             <ul className="navbar-nav mx-auto gap-4">
               <li className="nav-item">
-                <a className="nav-link d-flex align-items-center gap-2 text-white fw-medium" href="#Home" style={{ fontSize: "14px" }}>
-                  <i className="bi bi-door-open" style={{ color: goldColor }}></i> Home
-                </a>
+                       <Link
+                  className="nav-link d-flex align-items-center gap-2 text-white fw-medium"
+                  to="/" // Use 'to' instead of 'href'
+                  style={{ fontSize: "14px" }}
+                >
+                  <i
+                    className="bi bi-person-bounding-box"
+                    style={{ color: goldColor }}
+                  ></i>
+                  Home
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link d-flex align-items-center gap-2 text-white fw-medium" href="#About" style={{ fontSize: "14px" }}>
-                  <i className="bi bi-airplane-fill" style={{ transform: "rotate(45deg)", color: goldColor }}></i> About
+                <a
+                  className="nav-link d-flex align-items-center gap-2 text-white fw-medium"
+                  href="#About"
+                  style={{ fontSize: "14px" }}
+                >
+                  <i
+                    className="bi bi-airplane-fill"
+                    style={{ transform: "rotate(45deg)", color: goldColor }}
+                  ></i>{" "}
+                  About
                 </a>
               </li>
-             
+
               <li className="nav-item">
-                <a className="nav-link d-flex align-items-center gap-2 text-white fw-medium" href="#contact" style={{ fontSize: "14px" }}>
-                  <i className="bi bi-person-bounding-box" style={{ color: goldColor }}></i> Contact
-                </a>
+                <Link
+                  className="nav-link d-flex align-items-center gap-2 text-white fw-medium"
+                  to="/contact" // Use 'to' instead of 'href'
+                  style={{ fontSize: "14px" }}
+                >
+                  <i
+                    className="bi bi-person-bounding-box"
+                    style={{ color: goldColor }}
+                  ></i>
+                  Contact
+                </Link>
               </li>
             </ul>
 
@@ -74,7 +99,6 @@ export default function Navbar() {
                 <i className="bi bi-person-fill"></i> Login/Sign Up
               </button>
             </div>
-
           </div>
         </div>
       </nav>
