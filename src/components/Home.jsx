@@ -1,8 +1,12 @@
 import React from "react";
 import { FaBed, FaConciergeBell, FaMapMarkerAlt } from "react-icons/fa";
 import { FaHandshake, FaHeadset, FaMobileAlt } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 function Home() {
+  const [city, setCity] = useState("");
+const navigate = useNavigate();
   return (
     <div>
 
@@ -67,10 +71,12 @@ function Home() {
             <div className="col-md-3">
               <label className="form-label text-dark">City</label>
               <input
-                type="text"
-                className="form-control"
-                placeholder="Delhi, India"
-              />
+  type="text"
+  className="form-control"
+  placeholder="Enter City"
+  value={city}
+  onChange={(e) => setCity(e.target.value)}
+/>
             </div>
 
             {/* Check in */}
@@ -99,15 +105,16 @@ function Home() {
             {/* Search Button */}
             <div className="col-md-2 d-flex align-items-end">
               <button
-                className="btn w-100"
-                style={{
-                  backgroundColor: "#d4af37",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-              >
-                Search
-              </button>
+  className="btn w-100"
+  style={{
+    backgroundColor: "#d4af37",
+    color: "black",
+    fontWeight: "bold",
+  }}
+  onClick={() => navigate(`/hotels/${city}`)}
+>
+  Search
+</button>
             </div>
           </div>
         </div>
