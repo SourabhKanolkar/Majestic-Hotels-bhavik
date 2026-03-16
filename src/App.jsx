@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import { Route,Routes } from 'react-router-dom'
 import Hotels from './components/Hotels'
+import  About  from './components/About'
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/contact' element={<Contact />} />
        <Route path="/hotels/:city" element={<Hotels />} />
+           <Route path="/about" element={<About/>} />
+
     </Routes>
       <Footer />
     </>

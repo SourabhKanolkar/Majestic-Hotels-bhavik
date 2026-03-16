@@ -56,17 +56,17 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link d-flex align-items-center gap-2 text-white fw-medium"
-                  href="#About"
+                  to="/about" // Use 'to' instead of 'href'
                   style={{ fontSize: "14px" }}
                 >
                   <i
-                    className="bi bi-airplane-fill"
-                    style={{ transform: "rotate(45deg)", color: goldColor }}
-                  ></i>{" "}
+                    className="bi bi-person-bounding-box"
+                    style={{ color: goldColor }}
+                  ></i>
                   About
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
