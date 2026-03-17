@@ -8,6 +8,7 @@ import { Route,Routes } from 'react-router-dom'
 import Hotels from './components/Hotels'
 import  About  from './components/About'
 import TermsofService from './components/TermsofService'
+import Allhotels from './components/Allhotels'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
        <Route path="/hotels/:city" element={<Hotels />} />
         <Route path="/about" element={<About/>} />
         <Route path='/TermsofService' element={<TermsofService />} />
+        <Route path='/allhotels' element={<Allhotels />} />
 
     </Routes>
       <Footer />
