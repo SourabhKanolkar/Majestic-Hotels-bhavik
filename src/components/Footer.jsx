@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../assets/logoM1.jpeg";
 import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -43,8 +44,8 @@ function Footer() {
               <FaMapMarkerAlt
                 style={{ marginRight: "10px", color: "#d4af37" }}
               />
-              221 Luxury Avenue, Business Bay <br />
-              Mumbai, Maharashtra, India
+            Majestic group of hotels <br></br>
+            Founded: 1993, Kolkata, India
             </p>
           </div>
 
@@ -55,11 +56,12 @@ function Footer() {
             </h5>
 
             <ul style={{ listStyle: "none", padding: 0 }}>
-              <li style={{ marginBottom: "10px" }}>Terms of Service</li>
-              <li style={{ marginBottom: "10px" }}>Privacy Policy</li>
+              {/* <li style={{ marginBottom: "10px" }}>Terms of Service</li> */}
+              <li style={{ marginBottom: "10px" }}>  <Link style={{textDecoration:"none",color:"#fff"}} to='/TermsofService'>Terms of Service</Link> </li>
+              {/* <li style={{ marginBottom: "10px" }}>Privacy Policy</li>
               <li style={{ marginBottom: "10px" }}>About Us</li>
               <li style={{ marginBottom: "10px" }}>Contact</li>
-              <li style={{ marginBottom: "10px" }}>Cancellation Policy</li>
+              <li style={{ marginBottom: "10px" }}>Cancellation Policy</li> */}
             </ul>
           </div>
 

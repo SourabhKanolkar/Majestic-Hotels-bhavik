@@ -4,7 +4,7 @@ id:1,
 city:"sonmarg",
 name:"Hotel Snowland",
 websiteUrl:"https://snowlandhotelsandresorts.com/index.html",
-image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+image:"https://lh3.googleusercontent.com/p/AF1QipPrWETYUF9HfTRutqrqn5w7wwQF81D7yxhhIFPl=w243-h174-n-k-no-nu",
 description:"Luxury hotel with beautiful mountain views in Sonmarg."
 },
 {
@@ -12,7 +12,7 @@ id:2,
 city:"sonmarg",
 name:"Hotel Pine Spring",
 websiteUrl:"https://hotelpinespring.com/",
-image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+image:"https://lh3.googleusercontent.com/p/AF1QipPfEd43RnHfrosoahTSCoV370B53kAqjcWNB0bD=w574-h384-n-k-rw-no-v1",
 description:"Comfortable stay with modern amenities in Sonmarg."
 },
 {
@@ -730,7 +730,1031 @@ name:"Hotel Polo Towers Agartala",
 websiteUrl:"https://www.hotelpolotowers.com",
 image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
 description:"Premium luxury hotel in Agartala."
+},
+{
+id:85,
+city:"jaipur",
+name:"Hilton Jaipur",
+websiteUrl:"https://www.hilton.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Luxury Hilton property in the heart of Jaipur."
+},
+{
+id:86,
+city:"jaipur",
+name:"Hotel Magenta",
+websiteUrl:"https://www.google.com/search?q=Hotel+Magenta+Jaipur",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Modern boutique hotel with comfortable rooms."
+},
+{
+id:87,
+city:"jaipur",
+name:"Hotel Dodas Palace",
+websiteUrl:"https://www.google.com/search?q=Dodas+Palace+Jaipur",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Heritage style hotel offering Rajasthani hospitality."
+},
+{
+id:88,
+city:"jaipur",
+name:"The Fern Ecotel Jaipur",
+websiteUrl:"https://www.fernhotels.com",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Eco-friendly luxury hotel in Jaipur."
+},
+
+/* UDAIPUR */
+
+{
+id:89,
+city:"udaipur",
+name:"Hotel Paras Mahal",
+websiteUrl:"https://www.google.com/search?q=Hotel+Paras+Mahal+Udaipur",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Elegant resort with lake views."
+},
+{
+id:90,
+city:"udaipur",
+name:"Menuscript Jhilmil Haveli",
+websiteUrl:"https://www.google.com/search?q=Jhilmil+Haveli+Udaipur",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Boutique heritage haveli stay in Udaipur."
+},
+{
+id:91,
+city:"udaipur",
+name:"The Belmonte House",
+websiteUrl:"https://www.google.com/search?q=Belmonte+House+Udaipur",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Luxury boutique stay in the city of lakes."
+},
+{
+id:92,
+city:"udaipur",
+name:"Amar Kothi",
+websiteUrl:"https://www.google.com/search?q=Amar+Kothi+Udaipur",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Royal heritage style hotel near Lake Pichola."
+},
+
+/* JAISALMER */
+
+{
+id:93,
+city:"jaisalmer",
+name:"Saira Fort Sarovar Portico",
+websiteUrl:"https://www.sarovarhotels.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Luxury Sarovar property in the golden city."
+},
+{
+id:94,
+city:"jaisalmer",
+name:"Choki Dhani The Palace",
+websiteUrl:"https://www.chokhidhani.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Traditional Rajasthani palace themed resort."
+},
+{
+id:95,
+city:"jaisalmer",
+name:"Suryagarh",
+websiteUrl:"https://www.suryagarh.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Ultra luxury desert palace resort."
+},
+{
+id:96,
+city:"jaisalmer",
+name:"Hotel Heritage House",
+websiteUrl:"https://www.google.com/search?q=Heritage+House+Jaisalmer",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Boutique heritage stay near Jaisalmer Fort."
+},
+
+/* MUMBAI */
+
+{
+id:97,
+city:"mumbai",
+name:"Hotel Bawa International",
+websiteUrl:"https://www.hotelbawainternational.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Business hotel located near Mumbai airport."
+},
+{
+id:98,
+city:"mumbai",
+name:"Meluha The Fern",
+websiteUrl:"https://www.fernhotels.com",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Luxury eco-friendly business hotel in Powai."
+},
+{
+id:99,
+city:"mumbai",
+name:"The Resort Mumbai",
+websiteUrl:"https://www.theresortmumbai.com",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Beachside luxury resort in Madh Island."
+},
+{
+id:100,
+city:"mumbai",
+name:"Rodas An Ecotel Hotel",
+websiteUrl:"https://www.rodashotel.com",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Eco luxury hotel in Hiranandani Gardens."
+},
+
+/* PUNE */
+
+{
+id:101,
+city:"pune",
+name:"Hotel Parc Estique",
+websiteUrl:"https://www.parcestique.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Modern business hotel near Pune airport."
+},
+{
+id:102,
+city:"pune",
+name:"Oxford Golf Resort",
+websiteUrl:"https://www.oxfordgolfresort.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Luxury golf resort with scenic hillside views."
+},
+{
+id:103,
+city:"pune",
+name:"Tatthva Suites",
+websiteUrl:"https://www.google.com/search?q=Tatthva+Suites+Pune",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Premium serviced suites in Pune."
+},
+{
+id:104,
+city:"pune",
+name:"Cocoon Hotel",
+websiteUrl:"https://www.cocoonhotel.in",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Stylish boutique hotel in Magarpatta."
+},
+
+/* GOA */
+
+{
+id:105,
+city:"northgoa",
+name:"Radisson Condolim",
+websiteUrl:"https://www.radissonhotels.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Luxury Radisson property near Candolim beach."
+},
+{
+id:106,
+city:"northgoa",
+name:"Resorte Marinha Dourada",
+websiteUrl:"https://www.marinhadorada.com",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Beautiful lakeside resort in North Goa."
+},
+{
+id:107,
+city:"southgoa",
+name:"Baywatch Resort",
+websiteUrl:"https://www.baywatchresortgoa.com",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Beachside resort in Colva."
+},
+{
+id:108,
+city:"southgoa",
+name:"Caravela Beach Resort",
+websiteUrl:"https://www.caravelabeachresort.com",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Luxury beachfront 5-star resort."
+},
+{
+id:109,
+city:"rajkot",
+name:"Bizz The Hotel",
+websiteUrl:"https://www.thebizzhotel.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Premium business hotel located in Rajkot city center."
+},
+{
+id:110,
+city:"rajkot",
+name:"Patria Suites",
+websiteUrl:"https://www.google.com/search?q=Patria+Suites+Rajkot",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Modern serviced suites ideal for business travelers."
+},
+{
+id:111,
+city:"rajkot",
+name:"Comfort Inn Legacy",
+websiteUrl:"https://www.choicehotels.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Comfortable international brand hotel in Rajkot."
+},
+{
+id:112,
+city:"rajkot",
+name:"Sayaji Rajkot",
+websiteUrl:"https://www.sayajihotels.com",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Luxury Sayaji group hotel offering premium hospitality."
+},
+
+/* SASAN GIR */
+
+{
+id:113,
+city:"sasangir",
+name:"The Vanveda Resort by Nirvana",
+websiteUrl:"https://www.google.com/search?q=Vanveda+Resort+Sasan+Gir",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Luxury jungle resort near Gir National Park."
+},
+{
+id:114,
+city:"sasangir",
+name:"The Premier Gir Resort",
+websiteUrl:"https://www.google.com/search?q=Premier+Gir+Resort",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Nature resort offering wildlife experiences."
+},
+{
+id:115,
+city:"sasangir",
+name:"Gir Sarai",
+websiteUrl:"https://www.google.com/search?q=Gir+Sarai+Sasan+Gir",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Comfortable stay close to Gir forest safari."
+},
+{
+id:116,
+city:"sasangir",
+name:"Sarovar Portico Sasan Gir",
+websiteUrl:"https://www.sarovarhotels.com",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Luxury Sarovar property near Gir National Park."
+},
+
+/* SOMNATH */
+
+{
+id:117,
+city:"somnath",
+name:"Shree Leuva Patel Samaj",
+websiteUrl:"https://www.google.com/search?q=Leuva+Patel+Samaj+Somnath",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Popular accommodation near Somnath temple."
+},
+{
+id:118,
+city:"somnath",
+name:"Lords Inn Somnath",
+websiteUrl:"https://www.lordshotels.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Comfortable Lords Inn property near temple area."
+},
+{
+id:119,
+city:"somnath",
+name:"The Square Somnath",
+websiteUrl:"https://www.google.com/search?q=The+Square+Somnath+Hotel",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Modern hotel offering premium facilities."
+},
+{
+id:120,
+city:"somnath",
+name:"The S Crown",
+websiteUrl:"https://www.google.com/search?q=The+S+Crown+Somnath",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Boutique hotel near Somnath temple."
+},
+
+/* DWARKA */
+
+{
+id:121,
+city:"dwarka",
+name:"The Fern Sattva Resort",
+websiteUrl:"https://www.fernhotels.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Luxury eco-friendly resort near Dwarka."
+},
+{
+id:122,
+city:"dwarka",
+name:"Dwarkadhish Lords",
+websiteUrl:"https://www.lordshotels.com",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Comfortable stay close to Dwarkadhish temple."
+},
+{
+id:123,
+city:"dwarka",
+name:"Govardhan Greens",
+websiteUrl:"https://www.google.com/search?q=Govardhan+Greens+Dwarka",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Modern resort offering peaceful stay."
+},
+{
+id:124,
+city:"dwarka",
+name:"Guruprerna Beacon Resort",
+websiteUrl:"https://www.beaconhotels.com",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Comfortable Beacon hotel with modern amenities."
+},
+
+/* JUNAGADH */
+
+{
+id:125,
+city:"junagadh",
+name:"The Fern Leo Resort & Club",
+websiteUrl:"https://www.fernhotels.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Luxury resort near Girnar hills."
+},
+{
+id:126,
+city:"junagadh",
+name:"Bellevue Sarovar Premier",
+websiteUrl:"https://www.sarovarhotels.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Premium Sarovar property in Junagadh."
+},
+{
+id:127,
+city:"junagadh",
+name:"Click Hotel",
+websiteUrl:"https://www.clickhotels.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Modern business hotel offering stylish rooms."
+},
+{
+id:128,
+city:"junagadh",
+name:"The White Orchid",
+websiteUrl:"https://www.google.com/search?q=White+Orchid+Junagadh",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Comfortable boutique hotel in Junagadh."
+},
+
+/* GANDHINAGAR */
+
+{
+id:129,
+city:"gandhinagar",
+name:"Fortune Inn Haveli",
+websiteUrl:"https://www.itchotels.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Premium ITC Fortune hotel in Gandhinagar."
+},
+{
+id:130,
+city:"gandhinagar",
+name:"Prominent Corporate Residency",
+websiteUrl:"https://www.google.com/search?q=Prominent+Corporate+Residency+Gandhinagar",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Comfortable corporate hotel."
+},
+{
+id:131,
+city:"gandhinagar",
+name:"Grand Mercure Gandhinagar",
+websiteUrl:"https://all.accor.com",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Luxury Accor hotel in Gift City."
+},
+{
+id:132,
+city:"gandhinagar",
+name:"Siara Styles Amba Suites",
+websiteUrl:"https://www.google.com/search?q=Amba+Suites+Gandhinagar",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Modern suite hotel near Akshardham temple."
+},
+
+/* AHMEDABAD */
+
+{
+id:133,
+city:"ahmedabad",
+name:"Riverview Hotel",
+websiteUrl:"https://www.google.com/search?q=Riverview+Hotel+Ahmedabad",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Comfortable city hotel with Sabarmati views."
+},
+{
+id:134,
+city:"ahmedabad",
+name:"Lotus Park",
+websiteUrl:"https://www.google.com/search?q=Lotus+Park+Ahmedabad",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Affordable hotel with modern facilities."
+},
+{
+id:135,
+city:"ahmedabad",
+name:"Vivanta Ahmedabad",
+websiteUrl:"https://www.vivantahotels.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Luxury Vivanta property offering premium hospitality."
+},
+{
+id:136,
+city:"ahmedabad",
+name:"The Mantra One",
+websiteUrl:"https://www.google.com/search?q=The+Mantra+One+Ahmedabad",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Modern boutique hotel in Ahmedabad."
+},
+
+/* SURAT */
+
+{
+id:137,
+city:"surat",
+name:"Hotel Sadbhav Villa",
+websiteUrl:"https://www.google.com/search?q=Sadbhav+Villa+Surat",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Comfortable stay option in Surat."
+},
+{
+id:138,
+city:"surat",
+name:"Orange Megastructure",
+websiteUrl:"https://www.google.com/search?q=Orange+Megastructure+Surat",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Business hotel offering modern amenities."
+},
+{
+id:139,
+city:"surat",
+name:"Rajhans Belliza",
+websiteUrl:"https://www.rajhansbelliza.com",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Luxury resort style hotel near Surat airport."
+},
+{
+id:140,
+city:"surat",
+name:"Hotel Kings Heritage",
+websiteUrl:"https://www.google.com/search?q=Kings+Heritage+Surat",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Boutique heritage hotel."
+},
+{
+id:141,
+city:"vadodara",
+name:"Regenta Fairlark Vadodara",
+websiteUrl:"https://www.royalorchidhotels.com/regenta-fairlark-vadodara",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Modern luxury hotel offering premium rooms and conference facilities in Vadodara."
+},
+{
+id:142,
+city:"vadodara",
+name:"Hotel Grand Darshan",
+websiteUrl:"https://www.hotelgranddarshan.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Comfortable hotel known for warm hospitality and convenient city location."
+},
+{
+id:143,
+city:"vadodara",
+name:"The Baroda Residency Kabir Hotel and Spa",
+websiteUrl:"https://www.thebarodaresidency.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Elegant stay with spa facilities and premium amenities."
+},
+{
+id:144,
+city:"vadodara",
+name:"Fortune Inn",
+websiteUrl:"https://www.itchotels.com/in/en/fortuneinn",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Business hotel offering comfortable accommodation and modern services."
+},
+
+/* VAPI */
+
+{
+id:145,
+city:"vapi",
+name:"Fortune Galaxy",
+websiteUrl:"https://www.fortunegalaxyvapi.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Premium hotel in Vapi offering modern rooms and business amenities."
+},
+{
+id:146,
+city:"vapi",
+name:"Hotel Woodland",
+websiteUrl:"https://www.google.com/search?q=Hotel+Woodland+Vapi",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Comfortable hotel ideal for business travelers visiting Vapi."
+},
+{
+id:147,
+city:"vapi",
+name:"Hotel Blossom",
+websiteUrl:"https://www.google.com/search?q=Hotel+Blossom+Vapi",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Budget friendly hotel with cozy rooms and modern amenities."
+},
+{
+id:148,
+city:"vapi",
+name:"Ginger Vapi",
+websiteUrl:"https://www.gingerhotels.com",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Smart budget hotel from the Ginger brand by Tata."
+},
+
+/* SILVASSA */
+
+{
+id:149,
+city:"silvassa",
+name:"VITS Kamath Resort",
+websiteUrl:"https://www.vitshotels.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Luxury nature resort offering relaxing stays near Silvassa."
+},
+{
+id:150,
+city:"silvassa",
+name:"Treat Resort",
+websiteUrl:"https://www.treatresort.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Popular family resort known for leisure and recreation facilities."
+},
+{
+id:151,
+city:"silvassa",
+name:"Pearl Resort Silvassa",
+websiteUrl:"https://www.google.com/search?q=Pearl+Resort+Silvassa",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Comfortable resort surrounded by greenery."
+},
+{
+id:152,
+city:"silvassa",
+name:"Crown Palace Resort",
+websiteUrl:"https://www.google.com/search?q=Crown+Palace+Resort+Silvassa",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Premium resort offering luxury rooms and leisure facilities."
+},
+
+/* DAMAN */
+
+{
+id:153,
+city:"daman",
+name:"Hotel Sea Princess",
+websiteUrl:"https://www.google.com/search?q=Hotel+Sea+Princess+Daman",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Beachside hotel offering relaxing stays in Daman."
+},
+{
+id:154,
+city:"daman",
+name:"VITS Daman Devka Beach",
+websiteUrl:"https://www.vitshotels.com",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Beachfront luxury hotel located near Devka Beach."
+},
+{
+id:155,
+city:"daman",
+name:"Mirasol Resort",
+websiteUrl:"https://www.mirasolresort.com",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Scenic resort surrounded by water and gardens."
+},
+{
+id:156,
+city:"daman",
+name:"Gold Beach Resort",
+websiteUrl:"https://www.goldbeachresort.com",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Luxury beachfront resort ideal for vacations and events."
+},
+
+/* DIU */
+
+{
+id:157,
+city:"diu",
+name:"Hotel TGH",
+websiteUrl:"https://www.google.com/search?q=Hotel+TGH+Diu",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Comfortable hotel offering pleasant stays in Diu."
+},
+{
+id:158,
+city:"diu",
+name:"Azzaro Resort and Spa",
+websiteUrl:"https://www.azzaroresort.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Luxury resort with spa facilities and premium amenities."
+},
+{
+id:159,
+city:"diu",
+name:"Praveg Beach Resort",
+websiteUrl:"https://www.praveghotels.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Beachside resort offering unique seaside cottages."
+},
+{
+id:160,
+city:"diu",
+name:"Flamingo Club Resort",
+websiteUrl:"https://www.google.com/search?q=Flamingo+Club+Resort+Diu",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Resort known for leisure stays and recreational facilities."
+},
+
+/* KUTCH */
+
+{
+id:161,
+city:"kutch",
+name:"The Neemaya",
+websiteUrl:"https://www.google.com/search?q=The+Neemaya+Kutch",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Premium desert resort experience in Kutch."
+},
+{
+id:162,
+city:"kutch",
+name:"Pride Rock Resort",
+websiteUrl:"https://www.google.com/search?q=Pride+Rock+Resort+Kutch",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Luxury resort offering scenic desert views."
+},
+{
+id:163,
+city:"kutch",
+name:"Hotel The Devraj Palace",
+websiteUrl:"https://www.google.com/search?q=Devraj+Palace+Kutch",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Heritage style hotel inspired by royal architecture."
+},
+{
+id:164,
+city:"kutch",
+name:"Hotel Prince",
+websiteUrl:"https://www.google.com/search?q=Hotel+Prince+Kutch",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Comfortable budget hotel in the Kutch region."
+},
+/* MUMBAI */
+
+{
+id:165,
+city:"mumbai",
+name:"Abode Bombay",
+websiteUrl:"https://www.abodebombay.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Boutique heritage hotel located in Colaba, South Mumbai."
+},
+{
+id:166,
+city:"mumbai",
+name:"Aurika Mumbai International Airport",
+websiteUrl:"https://www.aurikahotels.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Luxury hotel near Mumbai International Airport with premium amenities."
+},
+{
+id:167,
+city:"mumbai",
+name:"Bloom Hotel Juhu",
+websiteUrl:"https://www.staybloom.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Modern boutique hotel near Juhu Beach."
+},
+{
+id:168,
+city:"mumbai",
+name:"Comfort Inn Heritage",
+websiteUrl:"https://www.choicehotels.com",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Comfortable stay in South Mumbai with modern facilities."
+},
+{
+id:169,
+city:"thane",
+name:"Ginger Hotel Thane",
+websiteUrl:"https://www.gingerhotels.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Smart budget hotel by Tata in Thane."
+},
+{
+id:170,
+city:"mumbai",
+name:"Hotel Sea Princess Mumbai",
+websiteUrl:"https://www.seaprincess.com",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Luxury beachfront hotel in Juhu."
+},
+
+/* DELHI */
+
+{
+id:171,
+city:"delhi",
+name:"Hotel Mint Park Blue",
+websiteUrl:"https://www.google.com/search?q=Hotel+Mint+Park+Blue+Delhi",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Comfortable budget hotel in Delhi."
+},
+{
+id:172,
+city:"delhi",
+name:"Hotel Paradise Inn",
+websiteUrl:"https://www.google.com/search?q=Hotel+Paradise+Inn+Delhi",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Affordable stay option in New Delhi."
+},
+{
+id:173,
+city:"delhi",
+name:"Hotel Ramhan Palace",
+websiteUrl:"https://www.hotelramhanpalace.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Hotel near IGI Airport ideal for transit travelers."
+},
+{
+id:174,
+city:"delhi",
+name:"Hotel Regent Grand",
+websiteUrl:"https://www.hotelregentgrand.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Luxury hotel in Karol Bagh area."
+},
+{
+id:175,
+city:"delhi",
+name:"Hotel Saket 27",
+websiteUrl:"https://www.saket27.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Stylish boutique hotel in South Delhi."
+},
+{
+id:176,
+city:"delhi",
+name:"Hotel Samrat",
+websiteUrl:"https://www.hotelsamratnewdelhi.com",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Premium hotel located near Connaught Place."
+},
+{
+id:177,
+city:"delhi",
+name:"Hotel Seven Seas",
+websiteUrl:"https://www.sevenseashotel.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Luxury hotel in Rohini with banquet facilities."
+},
+{
+id:178,
+city:"delhi",
+name:"Hotel Silver Stone",
+websiteUrl:"https://www.google.com/search?q=Hotel+Silver+Stone+Delhi",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Budget-friendly hotel in New Delhi."
+},
+{
+id:179,
+city:"delhi",
+name:"Hotel Sonu DX",
+websiteUrl:"https://www.google.com/search?q=Hotel+Sonu+DX+Delhi",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Affordable stay option near central Delhi."
+},
+
+/* GOA */
+
+{
+id:180,
+city:"northgoa",
+name:"10 Calangute",
+websiteUrl:"https://www.google.com/search?q=10+Calangute+Goa",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Modern hotel located near Calangute Beach."
+},
+{
+id:181,
+city:"northgoa",
+name:"3102bce A Vedic Resort",
+websiteUrl:"https://www.google.com/search?q=3102bce+Vedic+Resort+Goa",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Wellness-focused Vedic resort near Anjuna."
+},
+{
+id:182,
+city:"northgoa",
+name:"Acron Candolim Regina",
+websiteUrl:"https://www.acroncandolimregina.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Luxury resort near Candolim Beach."
+},
+{
+id:183,
+city:"northgoa",
+name:"Mykonos Blu",
+websiteUrl:"https://www.google.com/search?q=Mykonos+Blu+Goa",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Stylish boutique hotel inspired by Greek design."
+},
+{
+id:184,
+city:"southgoa",
+name:"The Zuri White Sands Goa Resort and Casino",
+websiteUrl:"https://www.thezurihotels.com",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Luxury beachfront resort in South Goa."
+},
+{
+id:185,
+city:"northgoa",
+name:"Treebo Rainforest Enclave",
+websiteUrl:"https://www.treebo.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Budget hotel near Calangute Beach."
+},
+
+/* BANGALORE */
+
+{
+id:186,
+city:"bangalore",
+name:"Hotel Raj Elegance",
+websiteUrl:"https://www.google.com/search?q=Hotel+Raj+Elegance+Bangalore",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Comfortable stay near Manyata Tech Park."
+},
+{
+id:187,
+city:"bangalore",
+name:"Hotel Royal Opera",
+websiteUrl:"https://www.google.com/search?q=Hotel+Royal+Opera+Bangalore",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Budget-friendly hotel in central Bangalore."
+},
+{
+id:188,
+city:"bangalore",
+name:"Hotel Royal Orchid",
+websiteUrl:"https://www.royalorchidhotels.com",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Luxury hotel with premium amenities in Bangalore."
+},
+
+/* PUNE */
+
+{
+id:189,
+city:"pune",
+name:"Hotel Aurora Towers",
+websiteUrl:"https://www.auroratowerspune.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Central Pune hotel with classic charm."
+},
+{
+id:190,
+city:"pune",
+name:"Fern Residency MIDC",
+websiteUrl:"https://www.fernhotels.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Eco-friendly business hotel in Pimpri."
+},
+{
+id:191,
+city:"pune",
+name:"Le Royale Residency Hinjewadi",
+websiteUrl:"https://www.google.com/search?q=Le+Royale+Residency+Pune",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Business hotel near IT hub Hinjewadi."
+},
+{
+id:192,
+city:"pune",
+name:"Hotel Hindusthan International Pune",
+websiteUrl:"https://www.hhihotels.com",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Luxury hotel near Pune Airport."
+},
+{
+id:193,
+city:"pune",
+name:"VITS Sagar Plaza",
+websiteUrl:"https://www.vitshotels.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Well-known business hotel in Pune."
+},
+
+/* HYDERABAD */
+
+{
+id:194,
+city:"hyderabad",
+name:"ibis Hyderabad HITEC City",
+websiteUrl:"https://all.accor.com",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Modern budget hotel by Accor in HITEC City."
+},
+{
+id:195,
+city:"hyderabad",
+name:"Fortune Park Vallabha",
+websiteUrl:"https://www.itchotels.com",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Premium ITC group hotel in Hyderabad."
+},
+{
+id:196,
+city:"hyderabad",
+name:"Avasa Hotel",
+websiteUrl:"https://www.avasa.com",
+image:"https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+description:"Luxury business hotel in HITEC City."
+},
+{
+id:197,
+city:"hyderabad",
+name:"Best Western Ashoka",
+websiteUrl:"https://www.bestwestern.com",
+image:"https://images.unsplash.com/photo-1566073771259-6a8506099945",
+description:"Comfortable hotel in central Hyderabad."
+},
+
+/* KOCHI */
+
+{
+id:198,
+city:"kochi",
+name:"Treebo Trend Golden Terminal",
+websiteUrl:"https://www.treebo.com",
+image:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+description:"Budget hotel in Kochi with modern amenities."
+},
+{
+id:199,
+city:"kochi",
+name:"Cochin Seaport Hotel",
+websiteUrl:"https://www.cochinseaport.com",
+image:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
+description:"Business hotel near Kochi port."
+},
+{
+id:200,
+city:"kochi",
+name:"Bloom Boutique Waterfront Granary",
+websiteUrl:"https://www.staybloom.com",
+image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+description:"Boutique waterfront stay in Kochi."
+},
+{
+id:201,
+city:"kochi",
+name:"Leisure Inn VKL",
+websiteUrl:"https://www.leisureinnhotels.com",
+image:"https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+description:"Comfortable stay in Kochi with modern facilities."
+},
+{
+id:202,
+city:"kochi",
+name:"Monsoon Empress",
+websiteUrl:"https://www.monsoonempress.com",
+image:"https://images.unsplash.com/photo-1561501900-3701fa6a0864",
+description:"Luxury hotel offering elegant rooms in Kochi."
+},
+{
+id:203,
+city:"kochi",
+name:"Nihara Resort and Spa",
+websiteUrl:"https://www.nihararesort.com",
+image:"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+description:"Premium resort with spa and leisure facilities."
 }
+
 
 ]
 export default hotels;
