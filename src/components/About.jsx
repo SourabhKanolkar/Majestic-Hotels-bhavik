@@ -42,7 +42,7 @@ function About() {
 
           <p style={{ maxWidth: "500px", color: "#ccc" }}>
             Majestic Group is one of the most recognized brands in the Indian Hospitality Industry, 
-            owning and operating over 20,000 rooms across more than 216 hotels and resorts.
+            owning and operating over 20,000+ rooms across more than 350 hotels and resorts.
           </p>
         </div>
       </section>

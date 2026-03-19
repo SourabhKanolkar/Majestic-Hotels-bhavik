@@ -202,7 +202,7 @@ const navigate = useNavigate();
 
                 <div style={{ zIndex: 2 }}>
                   <h4>Luxury Room Booking</h4>
-                  <button className="btn btn-light mt-3">Click Here</button>
+                  {/* <button className="btn btn-light mt-3">Click Here</button> */}
                 </div>
               </div>
             </div>
@@ -236,7 +236,7 @@ const navigate = useNavigate();
 
                 <div style={{ zIndex: 2 }}>
                   <h4>Premium Resort Packages</h4>
-                  <button className="btn btn-light mt-3">Click Here</button>
+                  {/* <button className="btn btn-light mt-3">Click Here</button> */}
                 </div>
               </div>
             </div>
@@ -270,7 +270,7 @@ const navigate = useNavigate();
 
                 <div style={{ zIndex: 2 }}>
                   <h4>Special Offers</h4>
-                  <button className="btn btn-light mt-3">Click Here</button>
+                  {/* <button className="btn btn-light mt-3">Click Here</button> */}
                 </div>
               </div>
             </div>
@@ -356,8 +356,7 @@ const navigate = useNavigate();
         <FaHandshake size={45} color="#d4af37" />
         <h5 className="mt-3">Vendors can Sell / Barter</h5>
         <p style={{ fontSize: "14px", color: "#ccc" }}>
-          You can list, sell, or barter/exchange your unsold inventory to earn
-          Passcoins and avail services in return.
+          You can list, sell, or barter/exchange your unsold inventory  and avail services in return.
         </p>
       </div>
 

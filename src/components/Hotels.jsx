@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import hotels from "../data";
+import { Link } from "react-router-dom";
+
 
 export default function Hotels() {
   const { city } = useParams();
@@ -104,9 +106,11 @@ export default function Hotels() {
                     View
                   </a>
 
-                  <button className="btn btn-outline-light">
+                  {/* <button className="btn btn-outline-light">
                     Check Availability
-                  </button>
+                  </button> */}
+                  <Link className="btn btn-outline-light" to='/login'>Check Availability</Link>
+               
 
                 </div>
 

@@ -98,7 +98,7 @@ export default function Navbar() {
             </ul>
 
             {/* 3. Gold Login Button */}
-            <div className="d-flex">
+            {/* <div className="d-flex">
               <button
                 className="btn d-flex align-items-center gap-2 px-3 py-1 text-black"
                 style={{
@@ -111,7 +111,7 @@ export default function Navbar() {
               >
                 <i className="bi bi-person-fill"></i> Login/Sign Up
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>

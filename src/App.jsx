@@ -9,6 +9,7 @@ import Hotels from './components/Hotels'
 import  About  from './components/About'
 import TermsofService from './components/TermsofService'
 import Allhotels from './components/Allhotels'
+import Login from './components/Login'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path='/TermsofService' element={<TermsofService />} />
         <Route path='/allhotels' element={<Allhotels />} />
+        <Route path='/login' element={<Login />} />
 
     </Routes>
       <Footer />

@@ -44,8 +44,8 @@ function Footer() {
               <FaMapMarkerAlt
                 style={{ marginRight: "10px", color: "#d4af37" }}
               />
-            Majestic group of hotels <br></br>
-            Founded: 1993, Kolkata, India
+            Majestic group of hotels , Kolkata, India <br></br>
+            Founded: 1993 
             </p>
           </div>
 
