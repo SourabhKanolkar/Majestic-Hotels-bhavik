@@ -2,10 +2,30 @@ import React from "react";
 import { FaBed, FaConciergeBell, FaMapMarkerAlt } from "react-icons/fa";
 import { FaHandshake, FaHeadset, FaMobileAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+import bydLogo from "../assets/byd-hotel.jpg";
+import woodbournLogo from "../assets/woodbourn.png";
+import 'swiper/css';
+import 'swiper/css/pagination';
 import { useState } from "react";
 
 function Home() {
   const [city, setCity] = useState("");
+
+  const partners = [
+    { name: "Funplicity Club", img: "https://backend.passclub.in/Images/AddPages/Sidharth_2/638786764567086738_temp.png" },
+    { name: "Lions Den Club", img: "https://backend.passclub.in/Images/AddPages/Sidharth_2/638695396066845795_temp.png" },
+    { name: "Club Embark", img: "https://backend.passclub.in/Images/AddPages/Sidharth_2/638786764567086738_temp.png" },
+    { name: "BYD", img: bydLogo},
+    { 
+    name: "WoodBourne", 
+    img: woodbournLogo, 
+    link: "https://woodbournegroup.in/" // Add the link here
+  }
+    
+  ];
+
 const navigate = useNavigate();
   return (
     <div>
@@ -283,55 +303,73 @@ const navigate = useNavigate();
       <section style={{ background: "#111111", padding: "90px 0" }}>
   <div className="container text-center text-light">
 
-    {/* PARTNERS SECTION */}
-    <h2
-      style={{
-        fontWeight: "bold",
-        marginBottom: "10px",
-        color: "#d4af37",
-      }}
-    >
-      Exchange Partner Clubs
-    </h2>
+    <section className="text-center py-5">
+      {/* HEADER - Kept your exact styles */}
+      <h2
+        style={{
+          fontWeight: "bold",
+          marginBottom: "10px",
+          color: "#d4af37",
+        }}
+      >
+        Exchange Partner Clubs
+      </h2>
 
-    <p className="mb-5 text-light">Exchange</p>
+      <p className="mb-5 text-light">Exchange</p>
 
-    <div className="row justify-content-center align-items-center mb-5">
-
-      {/* Partner 1 */}
-      <div className="col-md-3 mb-4">
+      {/* SLIDER CONTAINER */}
+      <div className="container">
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          spaceBetween={30}
+          slidesPerView={1}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          pagination={{ clickable: true }}
+          breakpoints={{
+            // When window width is >= 768px (Desktop/Tablet)
+            768: {
+              slidesPerView: 3,
+            },
+          }}
+          className="pb-5"
+        >
+          {partners.map((partner, index) => (
+            <SwiperSlide key={index}>
+    <div className="text-center mb-4">
+      {/* If partner.link exists, wrap in <a>, otherwise just show <img> */}
+      {partner.link ? (
+        <a href={partner.link}   rel="noopener noreferrer">
+          <img
+            src={partner.img}
+            alt={partner.name}
+            height={134}
+            style={{ 
+              marginBottom: "10px", 
+              objectFit: "contain",
+              maxWidth: "100%",
+              cursor: "pointer" // Optional: adds a hand pointer on hover
+            }}
+          />
+        </a>
+      ) : (
         <img
-          src="https://backend.passclub.in/Images/AddPages/Sidharth_2/638786764567086738_temp.png"
-          alt="Funplicity"
+          src={partner.img}
+          alt={partner.name}
           height={134}
-          style={{ marginBottom: "10px" }}
+          style={{ 
+            marginBottom: "10px", 
+            objectFit: "contain",
+            maxWidth: "100%" 
+          }}
         />
-        <h6>Funplicity Club</h6>
-      </div>
-
-      {/* Partner 2 */}
-      <div className="col-md-3 mb-4">
-        <img
-          src="https://backend.passclub.in/Images/AddPages/Sidharth_2/638695396066845795_temp.png"
-          alt="Lions Den"
-          height={134}
-          style={{ marginBottom: "10px" }}
-        />
-        <h6>Lions Den Club</h6>
-      </div>
-
-      {/* Partner 3 */}
-      <div className="col-md-3 mb-4">
-        <img
-          src="https://backend.passclub.in/Images/AddPages/Sidharth_2/638786764567086738_temp.png"
-          alt="Club Embark"
-          height={134}
-          style={{ marginBottom: "10px" }}
-        />
-        <h6>Club Embark</h6>
-      </div>
-
+      )}
+      <h6 className="text-white">{partner.name}</h6>
     </div>
+  </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
 
     {/* WHY CHOOSE US */}
     <h2
