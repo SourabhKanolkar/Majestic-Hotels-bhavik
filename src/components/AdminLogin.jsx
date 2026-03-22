@@ -1,39 +1,31 @@
+import React from 'react'
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-import React, { useState } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
-
-import Logo from "../assets/logoM1.jpeg";
-
-export default function Login() {
-  const [form, setForm] = useState({
-    email: "",
-    password: ""
-  });
-  const [error, setError] = useState("");
-  const navigate = useNavigate();
-  const [searchParams] = useSearchParams();
-  const city = searchParams.get("city");
-
-  const handleChange = (e) => {
+export default function AdminLogin() {
+      const [form, setForm] = useState({
+        email: "",
+        password: ""
+      });
+        const [error, setError] = useState("");
+        const navigate = useNavigate();
+          const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+   const handleSubmit = (e) => {
     e.preventDefault();
     setError("");
     if (form.email === "admin" && form.password === "admin") {
-      if (city) {
-        navigate(`/hotels/${city}`);
-      } else {
-        navigate("/hotels");
-      }
+        navigate('/allhotels');
     } else {
       setError("Invalid credentials. ");
     }
   };
 
+
   return (
-    <div
+  <div
       style={{
         background: "#0a0a0a",
         minHeight: "100vh",
@@ -164,6 +156,5 @@ export default function Login() {
         </p> */}
       </div>
     </div>
-  );
+  )
 }
-

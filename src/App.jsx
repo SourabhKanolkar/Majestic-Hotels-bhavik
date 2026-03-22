@@ -10,8 +10,12 @@ import  About  from './components/About'
 import TermsofService from './components/TermsofService'
 import Allhotels from './components/Allhotels'
 import Login from './components/Login'
+import AdminLogin from './components/AdminLogin'
+import { useState } from 'react'
 
 function App() {
+  // implement this  later
+  const [logedIn,setLogedin]=useState(false);
 
 
   return (
@@ -25,6 +29,7 @@ function App() {
         <Route path='/TermsofService' element={<TermsofService />} />
         <Route path='/allhotels' element={<Allhotels />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/adminlogin' element={<AdminLogin />} />
 
     </Routes>
       <Footer />

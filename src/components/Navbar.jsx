@@ -85,7 +85,7 @@ export default function Navbar() {
                <li className="nav-item">
                 <Link
                   className="nav-link d-flex align-items-center gap-2 text-white fw-medium"
-                  to="/allhotels" // Use 'to' instead of 'href'
+                  to="/adminlogin" // Use 'to' instead of 'href'
                   style={{ fontSize: "14px" }}
                 >
                   <i
