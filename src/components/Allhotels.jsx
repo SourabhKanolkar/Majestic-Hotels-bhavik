@@ -99,7 +99,7 @@ export default function Allhotels() {
                     View
                   </a>
 
-                <Link className="btn btn-outline-light" to='/login'>Check Availability</Link>
+                <Link className="btn btn-outline-light" to='/allhotels'>Check Availability</Link>
 
                 </div>
 

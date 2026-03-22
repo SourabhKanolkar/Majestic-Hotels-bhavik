@@ -124,7 +124,7 @@ function Footer() {
             fontSize: "14px",
           }}
         >
-          © 2026 Copyright Majestic Hotels. All rights reserved.
+          {/* © 2026 Copyright Majestic Hotels. All rights reserved. */}
         </div>
 
       </div>
