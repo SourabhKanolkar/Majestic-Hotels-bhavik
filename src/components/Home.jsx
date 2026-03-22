@@ -131,7 +131,7 @@ const navigate = useNavigate();
     color: "black",
     fontWeight: "bold",
   }}
-  onClick={() => navigate(`/hotels/${city}`)}
+onClick={() => navigate(`/login?city=${encodeURIComponent(city)}`)}
 >
   Search
 </button>

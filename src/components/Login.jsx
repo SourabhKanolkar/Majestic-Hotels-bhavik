@@ -1,5 +1,7 @@
 
 import React, { useState } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
+
 import Logo from "../assets/logoM1.jpeg";
 
 export default function Login() {
@@ -7,6 +9,10 @@ export default function Login() {
     email: "",
     password: ""
   });
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const city = searchParams.get("city");
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -14,7 +20,16 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(form);
+    setError("");
+    if (form.email === "admin" && form.password === "admin") {
+      if (city) {
+        navigate(`/hotels/${city}`);
+      } else {
+        navigate("/hotels");
+      }
+    } else {
+      setError("Invalid credentials. ");
+    }
   };
 
   return (
@@ -61,7 +76,7 @@ export default function Login() {
           <div className="mb-3">
             <label style={{ color: "#ccc" }}>Email</label>
             <input
-              type="email"
+              type="text"
               name="email"
               value={form.email}
               onChange={handleChange}
@@ -93,6 +108,11 @@ export default function Login() {
               required
             />
           </div>
+          {error && (
+            <div className="alert alert-danger" style={{ fontSize: "14px" }}>
+              {error}
+            </div>
+          )}
 
           <div className="d-flex justify-content-between mb-3">
             <div>
